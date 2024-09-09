@@ -3,7 +3,7 @@
 
 ![logo_default](./Lovelace_banner.png)
 
-Code for solving Project Lovelace problems in Python.
+Code for solving Project Lovelace problems in Python. Tested in python version 3.12.4
 
 
 
