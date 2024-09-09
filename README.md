@@ -1,6 +1,8 @@
 
 # Project Lovelace Solutions
 
+![Logo]([https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png](https://github.com/fahim-is-zero/ProjectLovelaceSolutions/blob/main/Lovelace_banner%2Cpng))
+
 Code for solving Project Lovelace problems in Python.
 
 
