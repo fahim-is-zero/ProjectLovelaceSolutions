@@ -1,7 +1,7 @@
 
 # Project Lovelace Solutions
 
-![Logo](./Lovelace_banner.png))
+![logo_default](./Lovelace_banner.png)
 
 Code for solving Project Lovelace problems in Python.
 
