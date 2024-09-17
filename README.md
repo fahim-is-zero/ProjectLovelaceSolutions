@@ -1,7 +1,7 @@
 
 # Project Lovelace Solutions
 
-![logo_default](./Lovelace_banner.png)
+![logo_default](./Lovelace_banner.png)(https://projectlovelace.net/problems/)
 
 Code for solving Project Lovelace problems in Python. Tested in python version 3.12.4
 
