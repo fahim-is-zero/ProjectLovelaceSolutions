@@ -1,3 +1,4 @@
+
 def almost_pi(N):
     t = 0  # temp variable
     n = 1
@@ -11,8 +12,8 @@ def almost_pi(N):
             t += p
             n += 1
     
-    pi = 4 * t  
+    pi = 4 * t      # (See Leibniz formula)
 
     return pi
 
-print(almost_pi(10000000))  
+print(almost_pi(10000000))  # 10M times --> 6 accurate digits after decimal (3.141592)
