@@ -1,3 +1,6 @@
+# Input: An integer for the number of terms to sum in calculating π using the Leibniz formula.
+# Output: The sum of the first n terms giving an approximation to π
+
 
 def almost_pi(N):
     t = 0  # temp variable
