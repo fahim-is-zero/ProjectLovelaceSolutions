@@ -1,7 +1,9 @@
-def habitable_exoplanet(L, r):
+# Circumstellar Habitable Zone (CHZ)
 
-    r_i = (L/1.1)**2
-    r_o = (L/0.54)**2
+def habitable_exoplanet(L, r):  
+
+    r_i = (L/1.1)**2   # inner radius of CHZ Star
+    r_o = (L/0.54)**2   # outer radius of CHZ Star
 
     if r_i < r < r_o:
         return "just right"
@@ -10,3 +12,4 @@ def habitable_exoplanet(L, r):
     elif r_i > r:
         return "too hot"
     
+print(habitable_exoplanet(0.0015, 0.05))  # Proxima Centauri b
