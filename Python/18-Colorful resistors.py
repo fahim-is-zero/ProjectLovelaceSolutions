@@ -38,3 +38,33 @@ tolerance = {
     'violet': 0.001,
     'grey': 0.0005
 }
+
+
+def resistance(band_colors):
+    n_bands = len(band_colors)
+
+    if n_bands == 5:
+        digit_1 = str(digits[band_colors[0]])
+        digit_2 = str(digits[band_colors[1]])
+        digit_3 = str(digits[band_colors[2]])
+        multi = multiplier[band_colors[3]]
+        digit = int((digit_1 + digit_2 + digit_3))
+        nominal_R = digit * multi
+        minimum_R = nominal_R - (nominal_R * tolerance[band_colors[4]])
+        maximum_R = nominal_R + (nominal_R * tolerance[band_colors[4]])
+    elif n_bands == 4:
+        digit_1 = str(digits[band_colors[0]])
+        digit_2 = str(digits[band_colors[1]])
+        multi = multiplier[band_colors[2]]
+        digit = int((digit_1 + digit_2))
+        nominal_R = digit * multi
+        minimum_R = nominal_R - (nominal_R * tolerance[band_colors[3]])
+        maximum_R = nominal_R + (nominal_R * tolerance[band_colors[3]])
+    elif n_bands == 1:
+        nominal_R = 0
+        minimum_R = 0
+        maximum_R = 0
+
+    print("Output nominal resistance: ", nominal_R)
+    print("Output minimum resistance: ", minimum_R)
+    print("Output maximum resistance: ", maximum_R)
