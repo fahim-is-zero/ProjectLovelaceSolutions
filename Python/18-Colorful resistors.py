@@ -26,3 +26,15 @@ multiplier = {
     'grey': 10 ** 8,
     'white': 10 ** 9
 }
+
+tolerance = {
+    'none': 0.2,
+    'silver': 0.1,
+    'gold': 0.05,
+    'brown': 0.01,
+    'red': 0.02,
+    'green': 0.005,
+    'blue': 0.0025,
+    'violet': 0.001,
+    'grey': 0.0005
+}
