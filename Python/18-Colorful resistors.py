@@ -1,3 +1,7 @@
+# Input: A list of colors (could be of length 1, 4, or 5).
+# Output: The nominal, minimum, and maximum resistance of the resistor (in that order).
+
+
 digits = {
     'black': 0,
     'brown': 1,
@@ -65,4 +69,11 @@ def resistance(band_colors):
         minimum_R = 0
         maximum_R = 0
 
+    # print("Output nominal resistance: ", nominal_R)
+    # print("Output minimum resistance: ", minimum_R)
+    # print("Output maximum resistance: ", maximum_R)
     return nominal_R, minimum_R, maximum_R
+
+resistor_band = ["green", "blue", "yellow", "gold"]
+
+print(resistance(resistor_band))
