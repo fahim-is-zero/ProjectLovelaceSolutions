@@ -13,3 +13,5 @@ def logistic_map(r):
 
     return x
 
+print(logistic_map(1))  # death (r=1)
+print(logistic_map(3.5))  # chaos (r=3.5)
