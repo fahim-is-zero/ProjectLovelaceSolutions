@@ -65,6 +65,4 @@ def resistance(band_colors):
         minimum_R = 0
         maximum_R = 0
 
-    print("Output nominal resistance: ", nominal_R)
-    print("Output minimum resistance: ", minimum_R)
-    print("Output maximum resistance: ", maximum_R)
+    return nominal_R, minimum_R, maximum_R
